@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootsrap/css/bootstrap.min.css">
+    <title>Hello, world!</title>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- !! Button trigger modal Bunda klavitura yopladigan Modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" data-bs-keyboard="false"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+                        bu yerda sayt bn kelishadigan narsalardi quysa buladi
+                        <h5 class="modal-title"></h5>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <!-- !! Button trigger modal  BUnda yopilmaydigan MODAL!!-->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Launch static backdrop modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br>
+        <!-- !! Modalda SCROL QISMI -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#examoleModalScrollable">
+            Launch static backdrop modal1
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="examoleModalScrollable" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi dolores unde ducimus
+                            necessitatibus illo minus enim eaque labore libero magni quos modi blanditiis placeat optio
+                            voluptate, et iure! Necessitatibus, corrupti. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Sint est dolorem autem vero consectetur sit molestiae quasi ratione modi
+                            corporis, debitis earum eligendi, rerum architecto maxime odit quas voluptatibus nobis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde facere illo voluptatem
+                            doloremque expedita minus perferendis, aliquam minima reiciendis aperiam fugiat dolores
+                            officiis animi deserunt perspiciatis esse tenetur! Exercitationem, cumque?
+
+                        </p>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi dolores unde ducimus
+                            necessitatibus illo minus enim eaque labore libero magni quos modi blanditiis placeat optio
+                            voluptate, et iure! Necessitatibus, corrupti. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Sint est dolorem autem vero consectetur sit molestiae quasi ratione modi
+                            corporis, debitis earum eligendi, rerum architecto maxime odit quas voluptatibus nobis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde facere illo voluptatem
+                            doloremque expedita minus perferendis, aliquam minima reiciendis aperiam fugiat dolores
+                            officiis animi deserunt perspiciatis esse tenetur! Exercitationem, cumque?
+
+                        </p>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi dolores unde ducimus
+                            necessitatibus illo minus enim eaque labore libero magni quos modi blanditiis placeat optio
+                            voluptate, et iure! Necessitatibus, corrupti. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Sint est dolorem autem vero consectetur sit molestiae quasi ratione modi
+                            corporis, debitis earum eligendi, rerum architecto maxime odit quas voluptatibus nobis!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde facere illo voluptatem
+                            doloremque expedita minus perferendis, aliquam minima reiciendis aperiam fugiat dolores
+                            officiis animi deserunt perspiciatis esse tenetur! Exercitationem, cumque?
+
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br>
+        <!-- !! Modaldan boshqa Modalga o`tish  -->
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Show a second modal and hide this one with the button below.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">Open second modal</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Hide this modal and show the first with the button below.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">Back to first</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a>
+
+
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./bootsrap/js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>
