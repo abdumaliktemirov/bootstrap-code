@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootsrap/css/bootstrap.min.css">
+    <title>Hello, world!</title>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <!-- 
+<button type="button" class="btn mt-4 btn-lg btn-danger"data-bs-target="popover" title="amazing content. It`s very engaging. Right?" >Click to toggle popover</button>
+
+ -->
+
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="top" data-bs-content="Top popover">
+            Popover on top
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="right" data-bs-content="Right popover">
+            Popover on right
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="bottom" data-bs-content="Bottom popover">
+            Popover on bottom
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="left" data-bs-content="Left popover">
+            Popover on left
+        </button>
+
+
+
+        <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped" style="width: 10%"></div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="25"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-success" style="width: 25%"></div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-info" style="width: 50%"></div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="75"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-warning" style="width: 75%"></div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="100"
+            aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-danger" style="width: 100%"></div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./bootsrap/js/bootstrap.min.js">
+        const popover = new bootstrap.Popover('.example-popover', {
+            container: 'body'
+        })
+    </script>
+</body>
+
+</html>
